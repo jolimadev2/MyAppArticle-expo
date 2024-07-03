@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, Component } from 'react';
 import { View, Text, FlatList, TouchableOpacity, Image, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
@@ -7,6 +7,11 @@ const API_KEY = 'f71af7261c434b5d8be60816ed910d8b';
 const API_URL = `https://newsapi.org/v2/top-headlines?country=us&apiKey=${API_KEY}`;
 
 
+/**
+ * 
+ * @param {Component} 
+ * @returns component to render the API of the LIST OF ARTICLES 
+ */
 
 const HomeScreen = () => {
   const [articles, setArticles] = useState([]);

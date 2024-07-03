@@ -2,10 +2,17 @@ import React from 'react';
 import { View, Text, StyleSheet, Image, ScrollView } from 'react-native';
 import ArrowBackIcon from '../components/ArrowBackIcon';
 
+
+/**
+ * 
+ * @param {navigation} 
+ * @returns component to render the list of articles and the back button image-
+ */
+
+
 const ArticleScreen = ({ route, navigation }) => {
   const { article } = route.params;
 
-  // Verificar que el artículo y sus propiedades existen
   if (!article || !article.title || !article.content) {
     return (
       <View style={styles.container}>
