@@ -1,6 +1,11 @@
 #TEST ASSIGNMENT
 
 English
+![fontsimmport](https://github.com/jolimadev2/MyAppArticle-expo/assets/173801115/e54cc06a-056b-4a40-ba89-241d3835bf83)
+
+![HomeScreen](https://github.com/jolimadev2/MyAppArticle-expo/assets/173801115/501d5ac7-8bfb-45c4-9ac6-80bc90afb449)
+
+![articlescreen](https://github.com/jolimadev2/MyAppArticle-expo/assets/173801115/1077a95b-e8d8-412a-843c-873ff99c4369)
 
 Objectives Achieved
 Screen Navigation: Successfully implemented screen navigation within the app.
